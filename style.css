@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    align-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(180deg, #DEF9F5 0%, rgba(255, 255, 255, 0) 100%), #E72F2F;
+    border-radius: 48px;
+}
+
+.title-discount {
+    width: 267px;
+    height: 50px;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+input {
+    width: 380px;
+    height: 50px;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 30px;
+    background: #EC1717;
+    border: none;
+}
+
+/* input:focus,
+input:hover {
+    outline: none;
+    border: 1px inset black;
+} */
+
+input::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.discount_option_list select {
+    width: 380px;
+    height: 50px;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 30px;
+    background: #6B0E0E;
+    color: #f7f1f1;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+
+.discount_option_list select:focus,
+.discount_option_list select:hover {
+    outline: none;
+    border: 2px solid #000000;
+}
+
+.discount_option_list option {
+    color: #000000;
+    background: #6B0E0E;
+}
+
+.btn-calculate input {
+    width: 380px;
+    height: 50px;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 30px;
+    background: #2E1C1C;
+    color: #f7f1f1;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-calculate input:focus,
+.btn-calculate input:hover {
+    outline: none;
+    border: 2px solid #000000;
+}
+
+label {
+    width: 380px;
+    height: 50px;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 30px;
+    background: #380000;
+    color: #f7f1f1;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    display: grid;
+}
